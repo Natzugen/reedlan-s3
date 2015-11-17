@@ -1,0 +1,57 @@
+#include "USER.h"
+
+
+void PlayerConnected(int aIndex,LPBYTE aRecv);
+void SetDrop(DWORD Drop);
+DWORD gObjByNick (char * nick);
+DWORD gObj_GetPKStatus (DWORD gObjId ); 
+void MsgNormal(int aIndex,char* szMsg,...);
+void MsgAllNormal(int aIndex,char* szMsg,...);
+static unsigned char bBuxCode[3]={0xFC, 0xCF, 0xAB};	// Xox Key for some interesthing things :)
+void BuxConvert(char* buf, int size);
+void SendBarMessage(DWORD PlayerID,int Color,LPCTSTR szText);
+void MessageAll(const char *Format, ...);
+void AllServerMsgSend(char *message);
+void MsgAll(char* szMsg,...);
+void ItemClear(int aIndex,int pos);
+void ItemClear1(int aIndex,int pos);
+void gObjViewProtocolListCreateHook(OBJECTSTRUCT* gObj);
+void MaxLifeReFillSend(DWORD PlayerID);
+void CallSkillEffect(DWORD PlayerID,BYTE Skill, BYTE Status,DWORD MobID,int isSkill,int SendType);
+void LogNotice(int type,char* szMsg,...);
+void TitleGS();
+int IsExistWingItem(int aIndex);
+int IsExistPetItem(int aIndex);
+bool WarpMenuReq(int aIndex,LPBYTE aRecv);
+bool ClickOnNPC(int aIndex,LPBYTE aRecv);
+void MsgYellow(int aIndex,char* szMsg,...);
+WORD GetPlayerClass(DWORD PlayerID);
+void *GetPlayerAddress(unsigned int PlayerID);
+long int gObj_GetInt(int PlayerID, int gObjParam);
+void gObj_Write(int PlayerID,int gObjParam,long int Value);
+void GetCustomInfoClient(DWORD PlayerID,LPBYTE aRecv);
+void PHeadSubSetB(LPBYTE lpBuf, BYTE head, BYTE sub, int size);
+void HookOffset(DWORD my, DWORD tohook, BYTE type);
+void __stdcall gObjViewportExecute(OBJECTSTRUCT *lpObj);
+unsigned char Role(unsigned char range);
+int TakeExcNum(int Exc);
+void MyObjCalCharacter(int aIndex);
+void GSEquiItem(int aIndex,unsigned char* aSend);
+unsigned char GetRandomExcOption(BYTE btMaxOptions, BOOL bAllowNoOpts);
+void MobRelogDelete(int aIndex);
+int MonstersAddAndSpawn(WORD Monster, BYTE Map, BYTE X, BYTE Y);
+void Server_UpdateTimer(void * lpParam);
+void gObjLifeCheckHook(OBJECTSTRUCT* mObj, OBJECTSTRUCT* pObj, int AttackDamage, int DamageSendType, int MSBFlag, int MSBDamage, BYTE Skill, int iShieldDamage);
+void PHeadSetBE( LPBYTE lpBuf, BYTE head,int size);
+void gObjMissCheckHook(OBJECTSTRUCT* lpObj, OBJECTSTRUCT* lpTargetObj, int skill, int skillSuccess, int magicsend, BOOL& bAllMiss);
+void gObjAttackS(OBJECTSTRUCT* gObj,OBJECTSTRUCT* tObj,class CMagicInf * value1,int value2,unsigned char value3,int value4,int value5);
+void SendSrvData(int PosX, int PosY, unsigned char* Packet, int Len);
+void MsgSendV2(OBJECTSTRUCT* gObj, unsigned char* Msg, int size);
+void GCMagicAttackNumberSendH(OBJECTSTRUCT* gObj, BYTE MagicNumber, int usernumber,  unsigned char skillsuccess);
+void GCTeleportSend(OBJECTSTRUCT* gObj, int MoveNumber, BYTE MapNumber, BYTE MapX, BYTE MapY, BYTE Dir) ;
+void gObjStateAttackProcHook(OBJECTSTRUCT *gObj, int aMsgCode, int aIndex, int SubCode, int SubCode2);
+void gObjAttackRecv(OBJECTSTRUCT* gObj,OBJECTSTRUCT* tObj,class CMagicInf * value1,int value2,unsigned char value3,int value4,int value5);
+void PHeadSetB(LPBYTE lpBuf, BYTE head, int size);
+void GCMagicAttackNewSkill4A(OBJECTSTRUCT* gObj,int Skill,int TargetNumber,int success);
+char *GetMapName(int MapId);
+void GCUseBuffEffect(OBJECTSTRUCT* gObj, BYTE btEffectIndex, BYTE btEffectUseOption, WORD wOptionType, WORD wEffectType, int iLeftTime);

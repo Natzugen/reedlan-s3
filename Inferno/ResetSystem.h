@@ -1,0 +1,1 @@
+void ResetSystem(int aIndex);

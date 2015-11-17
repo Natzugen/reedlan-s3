@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Console">
+      <UniqueIdentifier>{76416b92-57a7-4e14-97c2-075b99f7426b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{ee73cdf2-e557-4b9d-aa5c-5109aeb9889c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fix">
+      <UniqueIdentifier>{daaf1ce4-b06a-4513-8e4a-9a5bf3fbf177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GMConfig">
+      <UniqueIdentifier>{66737359-00dd-41b8-9c53-2fbc48da2ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{944691d1-9bc4-40ce-9a02-0f4d20a4155c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewJewels">
+      <UniqueIdentifier>{e000776f-9c3d-440e-b13a-54dde2c20985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{f59d7dc4-4f27-46e0-aed8-bc3cff973d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{dc2bfaa3-d467-4523-9c91-e14220e76475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OffTrade">
+      <UniqueIdentifier>{11b13f35-95b7-4466-afef-07d904891f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{81370b6d-d194-4837-9574-714cca10b115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{f0f5ec7a-260b-4469-a606-8e0bac12f313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSSQL">
+      <UniqueIdentifier>{a0ef8a41-49cf-4fc3-bf04-4193fcb820e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BuffSystem">
+      <UniqueIdentifier>{2c838d7e-088c-45a7-ae18-178126d1ac49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MoveStadium">
+      <UniqueIdentifier>{32a33d7a-7834-44ee-bfa7-681c414785c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DropZen">
+      <UniqueIdentifier>{da76336a-83ad-415f-aaa8-f25d53aa5936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExpSystem">
+      <UniqueIdentifier>{a52cf9bb-b299-4e47-8f89-3d8a14ac599a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Coins">
+      <UniqueIdentifier>{d3155d0a-e71b-4ab2-98ba-74d9e806eb7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResetSystem">
+      <UniqueIdentifier>{b528d905-2168-4773-88c1-bbed4aadf875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChaosMaster">
+      <UniqueIdentifier>{5cd9be0f-8437-42cc-b1c7-de3fd8379e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostSystem">
+      <UniqueIdentifier>{71b4870a-e0f4-465f-9a68-8517b3b51ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PackSystem">
+      <UniqueIdentifier>{e361068d-bf9b-4021-aeb1-29caae2bbbdb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="g_Console.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="MSSQL.cpp">
+      <Filter>MSSQL</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GMConf.cpp">
+      <Filter>GMConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="NewJewels.cpp">
+      <Filter>NewJewels</Filter>
+    </ClCompile>
+    <ClCompile Include="offTrade.cpp">
+      <Filter>OffTrade</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffSystem.cpp">
+      <Filter>BuffSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveStadium.cpp">
+      <Filter>MoveStadium</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix.cpp">
+      <Filter>Fix</Filter>
+    </ClCompile>
+    <ClCompile Include="DropZen.cpp">
+      <Filter>DropZen</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ExpSystem.cpp">
+      <Filter>ExpSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Coins.cpp">
+      <Filter>Coins</Filter>
+    </ClCompile>
+    <ClCompile Include="ResetSystem.cpp">
+      <Filter>ResetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaosMaster.cpp">
+      <Filter>ChaosMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="PostSystem.cpp">
+      <Filter>PostSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PackSystem.cpp">
+      <Filter>PackSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="g_Console.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="MSSQL.h">
+      <Filter>MSSQL</Filter>
+    </ClInclude>
+    <ClInclude Include="GMConf.h">
+      <Filter>GMConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="NewJewels.h">
+      <Filter>NewJewels</Filter>
+    </ClInclude>
+    <ClInclude Include="offTrade.h">
+      <Filter>OffTrade</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="USER.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="TEnum.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffSystem.h">
+      <Filter>BuffSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveStadium.h">
+      <Filter>MoveStadium</Filter>
+    </ClInclude>
+    <ClInclude Include="Fix.h">
+      <Filter>Fix</Filter>
+    </ClInclude>
+    <ClInclude Include="DropZen.h">
+      <Filter>DropZen</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpSystem.h">
+      <Filter>ExpSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Coins.h">
+      <Filter>Coins</Filter>
+    </ClInclude>
+    <ClInclude Include="ResetSystem.h">
+      <Filter>ResetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaosMaster.h">
+      <Filter>ChaosMaster</Filter>
+    </ClInclude>
+    <ClInclude Include="PostSystem.h">
+      <Filter>PostSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PackSystem.h">
+      <Filter>PackSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
